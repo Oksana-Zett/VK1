@@ -27,6 +27,6 @@ public class Post {
     private int markedAsAds; //Информация о том, содержит ли запись отметку «реклама»
     private boolean isFavorite; //Информация о том, добавлен ли объект в закладки у текущего пользователя
     private int postponedId; //Идентификатор отложенной записи (поле возвращается тогда, когда запись стояла на таймере)
-
+    private VkDonut vkDonut; //Информация о записи VK Donut
     //getters+setters;
 }
